@@ -41,10 +41,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_product.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 3040
+TARGET_SCREEN_WIDTH := 1440
+
 # Inherit some common PixelExperience stuff
-TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_CALL_RECORDING_SUPPORTED := true
 TARGET_FACE_UNLOCK_SUPPORTED := false
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
