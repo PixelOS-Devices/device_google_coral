@@ -79,7 +79,7 @@ product/priv-app/USCCDM/USCCDM.apk
 # VZW
 product/app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
 product/etc/permissions/com.android.omadm.service.xml
-product/etc/permissions/com.google.omadm.trigger.xml
+product/etc/permissions/com.google.omadm.trigger.xml|553974a25930a819ddc50764715a8299d07febd5
 product/etc/permissions/com.verizon.apn.xml
 product/etc/permissions/com.verizon.services.xml
 product/etc/permissions/features-verizon.xml
@@ -95,7 +95,7 @@ system_ext/etc/permissions/com.google.android.camera.extensions.xml
 system_ext/framework/com.google.android.camera.extensions.jar
 
 # HBM
-system_ext/priv-app/HbmSVManager/HbmSVManager.apk|6a55a373faefe30322b77ceafac7a3afd555f617
+system_ext/priv-app/HbmSVManager/HbmSVManager.apk|fe735c4ba34ce45b704c30bef0aaf37d23b33cd6
 
 # Hotword
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
